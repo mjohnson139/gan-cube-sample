@@ -1,10 +1,12 @@
 
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 const workerImportMetaUrlRE = /\bnew\s+(?:Worker|SharedWorker)\s*\(\s*(new\s+URL\s*\(\s*('[^']+'|"[^"]+"|`[^`]+`)\s*,\s*import\.meta\.url\s*\))/g;
 
 export default defineConfig({
     base: "/gan-cube-sample",
+    plugins: [react()],
     build: {
         chunkSizeWarningLimit: 2048
     },
