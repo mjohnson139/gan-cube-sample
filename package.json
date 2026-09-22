@@ -20,7 +20,7 @@
   "dependencies": {
     "@types/web-bluetooth": "^0.0.20",
     "cubing": "^0.51.0",
-    "gan-web-bluetooth": "github:mjohnson139/gan-web-bluetooth#claude/relaxed-edison-0w9tl3",
+    "gan-web-bluetooth": "github:mjohnson139/gan-web-bluetooth#main",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "rxjs": "^7.8.1",
